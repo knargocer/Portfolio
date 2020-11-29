@@ -1,0 +1,9 @@
+.infoResume p {
+    color:#84206b;
+    font-size: 1em;
+}
+.infoResume li{
+    color: #e55c30;
+    font-size: 1.5em;
+    list-style-type: none;
+}

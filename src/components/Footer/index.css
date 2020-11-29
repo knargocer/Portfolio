@@ -1,0 +1,26 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:#140b34;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:5em;
+}
+
+.footerContainer a{
+    padding:1em;
+    margin-right:4em;
+}
+.footerSocialMedia,.footerOtherContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:1em;
+    margin-right:1em;
+}
+.footerOtherContact p{
+    color:#e55c30;
+    font-size:1em;
+    margin-left:4em;
+}

@@ -1,0 +1,38 @@
+
+.projectCard {
+    background:#84206b;
+    margin:2em;
+    padding:1em;
+    width:20em;
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .projectCard p  {
+    color:#ffffff;
+    margin: 2em;
+}
+.projectCard a {
+    color:#e55c30;
+    margin: 2em;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 1em 2em rgba(0, 0, 0, 0.123), 0 0.4em 0.8em rgba(0,0,0,.06);
+}
+
+
+.cardImage{
+    width: 20em;
+    height: 15em;
+}
+.card-title{
+    color:#140b34;
+    font-size:2em;
+}

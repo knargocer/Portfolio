@@ -1,0 +1,17 @@
+.headerKnarGocer{
+    margin:2em;
+}
+.headerKnarGocerImage{
+    width: 50%;
+    margin-top:8em;
+}
+.headerContainer{
+    background-image: url("./images/HeaderBackground.jpg");
+    background-repeat: repeat no-repeat;
+    background-size: contain;  
+}
+
+.profilePic{
+    width:18em;
+    height: 20em;
+}

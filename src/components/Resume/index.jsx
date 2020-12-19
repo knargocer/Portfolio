@@ -25,7 +25,7 @@ export default function Resume(){
                     <p>Bachelor of Computer Science.</p>
             </ul>
 
-            <p className = "resumeLink" id="resume"> For more information about me please check out my <a href ="https://docs.google.com/document/d/1TaWugtDX409F4D_pArZO0ISWNydg0x0Ew6WD3JWCgAc/edit?usp=sharing" rel = "noopener noreferrer" target = "_blank">resume</a></p>
+            <p className = "resumeLink" id="resume"> For more information about me please check out my <a href ="https://docs.google.com/document/d/1hDeQI17COGbW1K9JTnwdD52cTaPGcXnExmPDlFNxmmY/edit?usp=sharing" rel = "noopener noreferrer" target = "_blank">resume</a></p>
                    
        </Container>
     )

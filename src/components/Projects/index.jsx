@@ -45,7 +45,7 @@ export default function Projects(){
                 <Card.Body>
                     <Card.Title>E-commerce Project</Card.Title>
                     <Card.Text>
-                        E-commerce site implemented usinf FireBase  
+                        E-commerce site implemented using FireBase  
                     </Card.Text>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                         <a aria-hidden="true" href = "https://github.com/knargocer/E-commerce" className ="fa fa-github" ></a>
@@ -71,7 +71,7 @@ export default function Projects(){
                 <Card.Body>
                     <Card.Title>Fortune Found Project</Card.Title>
                     <Card.Text>
-                        The capstone project for Re:Coded that aims to connect people in-need and volunteers
+                        The project that aims to connect people in-need and volunteers
                     </Card.Text>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                         <a aria-hidden="true" href = "https://github.com/ReCoded-Org/capstone-istanbul-from_garbage_to_gift" className ="fa fa-github" ></a>

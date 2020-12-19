@@ -18,10 +18,10 @@
 .navBar a {
     text-decoration: none;
     font-size: 1.5em;
-    color:#140b34;
+    color:#48D1CC;
     transition: 0.5s;
   }
 
   .navBar a:hover{
-    color:#e55c30;
+    color:#140b34;
   }

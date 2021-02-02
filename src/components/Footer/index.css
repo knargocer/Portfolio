@@ -11,17 +11,20 @@
 
 .footerContainer a{
     padding:1em;
-    margin-right:4em;
+    margin: 1em;
 }
 .footerSocialMedia,.footerOtherContact{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-left:1em;
     margin-right:1em;
+    width:50%;
 }
 .footerOtherContact p{
     color:#48D1CC;
     font-size:1em;
-    margin-left:4em;
+    margin:1em;
+}
+.row{
+    width:100%;
 }

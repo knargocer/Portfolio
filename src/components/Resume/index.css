@@ -1,10 +1,23 @@
-.infoResume p {
+.lists p {
     color:#84206b;
     font-size: 1.5em;
+    margin:0.2em;
 }
 .infoResume li{
     color: #006969;
     font-size: 2em;
     list-style-type: none;
-    margin:2em;
+    margin:2em 2em 0em 2em;
+}
+.resumeLink {
+    color: #140b34;
+    font-size: 2em;
+    margin-top:3em;
+    margin-bottom:5em;
+}
+.githubLogo{
+    display: inline-block;
+    align-self: center;
+    height:5em;
+    width: 5em;
 }

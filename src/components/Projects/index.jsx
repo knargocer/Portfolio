@@ -6,12 +6,14 @@ import Ecommerce from "./images/Ecommerce.png";
 import FortuneFound from "./images/FortuneFound.png";
 import MadLips from "./images/MadLips.png";
 import MovieProject from "./images/MovieProject.png";
+import Github from "./images/github.png";
 import "./index.css"
 export default function Projects(){
     return (
         <Container fluid = "md">
+            <h2>Projects</h2>
+
         <Row fluid="md" id= "projects" >
-            
             <Col>
             <Card className ="projectCard">
                 <Card.Img variant="top" src={MadLips} className= "cardImage"  />
@@ -20,8 +22,8 @@ export default function Projects(){
                     <Card.Text>
                     Fun game of filling the blanks randomly.
                     </Card.Text>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        <a aria-hidden="true" href = "https://github.com/knargocer" className ="fa fa-github" ></a>
+                    <a aria-hidden="true" href = "https://github.com/knargocer" > <img className ="githubLogo" alt= "MadLips" src={Github}/> </a>
+              
                 </Card.Body>
             </Card>
             </Col>
@@ -34,8 +36,7 @@ export default function Projects(){
                     <Card.Text>
                         The movie site that was implemented using Object Oriented Programming
                     </Card.Text>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        <a aria-hidden="true" href = "https://github.com/knargocer/MovieOOP-Project" className ="fa fa-github" ></a>
+                    <a aria-hidden="true" href = "https://github.com/knargocer/MovieOOP-Project"> <img className ="githubLogo"  alt= "Movie site" src={Github}/> </a>
                 </Card.Body>
             </Card>
             </Col>
@@ -47,8 +48,7 @@ export default function Projects(){
                     <Card.Text>
                         E-commerce site implemented using FireBase  
                     </Card.Text>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        <a aria-hidden="true" href = "https://github.com/knargocer/E-commerce" className ="fa fa-github" ></a>
+                        <a aria-hidden="true" href = "https://github.com/knargocer/E-commerce" > <img className ="githubLogo" alt= "E-Commerse site"  src={Github}/> </a>
             </Card.Body>
             </Card>
             </Col>
@@ -60,8 +60,7 @@ export default function Projects(){
                     <Card.Text>
                     The site that enables the user to plan a vacation efficiently
                     </Card.Text>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        <a aria-hidden="true" href = "https://github.com/knargocer/board-project-1" className ="fa fa-github" ></a>
+                        <a aria-hidden="true" href = "https://github.com/knargocer/board-project-1" > <img className ="githubLogo" alt= "Travel Planner" src={Github}/> </a>
             </Card.Body>
             </Card>
             </Col>
@@ -73,8 +72,8 @@ export default function Projects(){
                     <Card.Text>
                         The project that aims to connect people in-need and volunteers
                     </Card.Text>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        <a aria-hidden="true" href = "https://github.com/ReCoded-Org/capstone-istanbul-from_garbage_to_gift" className ="fa fa-github" ></a>
+                    <a aria-hidden="true" href = "https://github.com/ReCoded-Org/capstone-istanbul-from_garbage_to_gift" > <img className ="githubLogo" alt= "Fortune Found"  src={Github}/> </a>
+              
             </Card.Body>
             </Card>
             </Col>
